@@ -1,0 +1,10 @@
+/* File for all rtl and ltr */
+
+.w-50p{
+    width: 50px;
+}
+
+.text-primary{ color: var(--bs-teal) !important; }
+.border-primary {border-color: var(--bs-teal) !important;}
+.btn-primary,.page-item.active .page-link {border-color: var(--bs-teal) !important;background-color: var(--bs-teal) !important;}
+.color-teal{ background-color: var(--bs-teal) !important; }

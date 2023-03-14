@@ -1,0 +1,41 @@
+
+
+{
+	"sEmptyTable":   	"لا توجد بيانات في الجدول",
+	"sInfo":         	"_START_ إلى _END_ من _TOTAL_ المعروض",
+	"sInfoEmpty":    	"0 إلى 0 من 0 المدخلات",
+	"sInfoFiltered": 	"(تصفية من _MAX_ المدخلات)",
+	"sInfoPostFix":  	"",
+	"sInfoThousands":  	".",
+	"sLengthMenu":   	"_MENU_ عدد المعروض",
+	"sLoadingRecords": 	"تحميل...",
+	"sProcessing":   	"يرجى الانتظار...",
+	"sSearch":       	"البحث",
+	"sZeroRecords":  	"لا توجد إدخالات متاحة.",
+	"oPaginate": {
+		"sFirst":    	"الاول",
+		"sPrevious": 	"السابق",
+		"sNext":     	"التالي",
+		"sLast":     	"الاخير"
+	},
+	"oAria": {
+		"sSortAscending":  ": تنشيط لفرز العمود بترتيب تصاعدي",
+		"sSortDescending": ": تمكين لفرز العمود بترتيب تنازلي"
+	},
+	"buttons": {
+        "create": "انشاء",
+        "remove": "حذف",
+        "edit": "إضافة",
+        "copy": "نسخ",
+        "copyKeys": "اضغط على ctrl + C لنسخ بيانات الجدول إلى الحافظة الخاصة بك.",
+        "copySuccess": {
+            "1": "نسخ إلى الحافظة"
+        },
+        "copyTitle": "نسخ إلى الحافظة",
+        "csv": "csv",
+        "excel": "excel",
+        "pdf": "pdf",
+        "print": "طباعة"
+    }
+	
+}
