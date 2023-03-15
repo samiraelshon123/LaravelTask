@@ -23,4 +23,5 @@ return [
     "AllRightReserved" =>"All Right Reserved",
     'Category' => 'Category',
     'search' => 'Search',
+    'SelectName' => 'Select Name',
 ];

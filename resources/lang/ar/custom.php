@@ -23,4 +23,5 @@ return [
     "AllRightReserved" =>"جميع الحقوق محفوظة",
     'Category' => 'التصنيف',
     'search' => 'ابحث',
+    'SelectName' => 'حدد الاسم',
 ];

@@ -32,16 +32,15 @@
             <div class="card-body">
                 <form action="{{ route('product.index') }}" method="get">
                     @csrf
-                    <label for="">select category</label>
+                    <label for="">{{ __('custom.SelectCategory') }}</label>
                     <select name="category" id="" class="form-control">
-                        <option value="">Select Category</option>
+                        <option value="">{{ __('custom.SelectName') }}</option>
                         @foreach ($categories as $category)
                             <option value="{{$category->id}}">{{$category->Name}}</option>
                         @endforeach
                     </select><br>
-                    <label for="">select name</label>
+                    <label for="">{{ __('custom.SelectName') }}</label>
                     <input type="text" class="form-control" name="product"><br>
-                    {{-- <a class="btn btn-primary" href="{{route("product.index")}}">{{__("custom.search")}}</a> --}}
                     <button type="submit" class="btn btn-primary btn-md px-5 w-10"> {{ __('custom.search') }} </button>
                 </form><br>
                 <div class="table-responsive">
