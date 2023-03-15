@@ -52,7 +52,7 @@
                                     <textarea name="Description" class="form-control req" id="inputFirstName" >{{ $product->Description }}</textarea>
                                 </div>
                                 <div class="col-md-12">
-                                    <label for="inputFirstName" class="form-label">{{__("custom.Description")}}</label>
+                                    <label for="inputFirstName" class="form-label">{{__("custom.Category")}}</label>
                                     <select name="category_id" id="" class="form-control req">
                                         <option value="">{{ __('custom.SelectCategory') }}</option>
                                         @foreach ($categories as $category)

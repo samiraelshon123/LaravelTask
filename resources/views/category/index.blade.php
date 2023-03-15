@@ -20,6 +20,7 @@
             </div>
             <div class="ms-auto">
                 <a class="btn btn-success" href="{{route("category.create")}}">{{__("custom.add")}}</a>
+               
 
             </div>
         </div>
@@ -32,7 +33,7 @@
                         <thead>
                         <tr>
                             <th>{{__("custom.Name")}}</th>
-                           
+
                             <th>{{__("custom.Action")}}</th>
                         </tr>
                         </thead>

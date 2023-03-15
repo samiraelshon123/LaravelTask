@@ -21,4 +21,6 @@ return [
     'close' => 'Close',
     "Copyright" =>"Copyright",
     "AllRightReserved" =>"All Right Reserved",
+    'Category' => 'Category',
+    'search' => 'Search',
 ];

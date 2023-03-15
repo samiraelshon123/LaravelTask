@@ -18,15 +18,32 @@
                     </ol>
                 </nav>
             </div>
+
             <div class="ms-auto">
                 <a class="btn btn-success" href="{{route("product.create")}}">{{__("custom.add")}}</a>
 
+
             </div>
+
         </div>
 
         <hr/>
         <div class="card">
             <div class="card-body">
+                <form action="{{ route('product.index') }}" method="get">
+                    @csrf
+                    <label for="">select category</label>
+                    <select name="category" id="" class="form-control">
+                        <option value="">Select Category</option>
+                        @foreach ($categories as $category)
+                            <option value="{{$category->id}}">{{$category->Name}}</option>
+                        @endforeach
+                    </select><br>
+                    <label for="">select name</label>
+                    <input type="text" class="form-control" name="product"><br>
+                    {{-- <a class="btn btn-primary" href="{{route("product.index")}}">{{__("custom.search")}}</a> --}}
+                    <button type="submit" class="btn btn-primary btn-md px-5 w-10"> {{ __('custom.search') }} </button>
+                </form>
                 <div class="table-responsive">
                     <table id="example2" class="table table-striped table-bordered">
                         <thead>

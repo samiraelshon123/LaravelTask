@@ -21,4 +21,6 @@ return [
     'close' => 'اغلاق',
     "Copyright" =>"حقوق النشر",
     "AllRightReserved" =>"جميع الحقوق محفوظة",
+    'Category' => 'التصنيف',
+    'search' => 'ابحث',
 ];
