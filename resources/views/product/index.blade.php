@@ -43,7 +43,7 @@
                     <input type="text" class="form-control" name="product"><br>
                     {{-- <a class="btn btn-primary" href="{{route("product.index")}}">{{__("custom.search")}}</a> --}}
                     <button type="submit" class="btn btn-primary btn-md px-5 w-10"> {{ __('custom.search') }} </button>
-                </form>
+                </form><br>
                 <div class="table-responsive">
                     <table id="example2" class="table table-striped table-bordered">
                         <thead>
